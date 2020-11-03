@@ -11,11 +11,11 @@
     <div id="bodyDiv">
       <div class="imgDiv" id="crustImgDiv">
         <div class="headingDiv">
-          <h2>Choose Your Crust</h2>
+          <h2>Choose Your Crust(Choose One)</h2>
         </div>
       </div>
       <div class="sectionDiv lightSection" id="custSectionDiv">
-        <div class="cardDiv lightCard" id='crust1' onclick="crust1fun()">
+        <div class="cardDiv lightCard" id='crust1' >
           <div class="cardImg" style="background:url('imgs/pan crust.jpg'); background-size:cover;">
 
           </div>
@@ -27,19 +27,19 @@
             <h1>&#x20B9; 80</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='crust2'>
+        <div class="cardDiv lightCard" id='crust2'  >
           <div class="cardImg" style="background:url('imgs/thin crust.jpg'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Thin Crust</h2>
-            <p>The original crunch with a subtle tenderness that's impossible to resist. Served traditionally with Parmesan instead of Mozzarella.</p>
+            <p>The original crunch with a subtle tenderness that's impossible to resist served with Parmesan.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 100</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='crust3'>
+        <div class="cardDiv lightCard" id='crust3' onclick="crust3fun()">
           <div class="cardImg" style="background:url('imgs/cheezza.jpg'); background-size:cover;">
 
           </div>
@@ -51,13 +51,13 @@
             <h1>&#x20B9; 120</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='crust4'>
+        <div class="cardDiv lightCard" id='crust4' >
           <div class="cardImg" style="background:url('imgs/whole wheat.jpg'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Whole Wheat</h2>
-            <p>For the healthy ones, presenting the all new whole wheat pizza crust. Relive the mouth watering taste of Peatza without worrying much about health anymore.</p>
+            <p>For the healthy ones, relive the scrumptious taste of Peatza without worrying about health anymore.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 100</h1>
@@ -66,11 +66,11 @@
       </div>
       <div class="imgDiv" id="sauceImgDiv">
         <div class="headingDiv">
-          <h2>Choose Your Sauce</h2>
+          <h2>Choose Your Sauce (Choose One)</h2>
         </div>
       </div>
       <div class="sectionDiv darkSection" id="sauceSectionDiv">
-        <div class="cardDiv darkCard" id='sauce1'>
+        <div class="cardDiv darkCard" id='sauce1' onclick="sauce1fun()">
           <div class="cardImg" style="background:url('imgs/tomato sauce.jpg'); background-size:cover;">
 
           </div>
@@ -82,7 +82,7 @@
             <h1>&#x20B9; 30</h1>
           </div>
         </div>
-        <div class="cardDiv darkCard" id='sauce2'>
+        <div class="cardDiv darkCard" id='sauce2' >
           <div class="cardImg" style="background:url('imgs/hummus.jpg'); background-size:cover;">
 
           </div>
@@ -94,11 +94,11 @@
             <h1>&#x20B9; 45</h1>
           </div>
         </div>
-        <div class="cardDiv darkCard" id='sauce3'>
+        <div class="cardDiv darkCard" id='sauce3' >
           <div class="cardImg" style="background:url('imgs/garlic ranch.jpg'); background-size:cover;">
 
           </div>
-          <div class="cardDesc">
+          <div class="cardDesc" >
             <h2>Garlic Ranch Sauce</h2>
             <p>A Peatza special, a white sacuce made using garlics as the primary ingredient.</p>
           </div>
@@ -106,13 +106,13 @@
             <h1>&#x20B9; 40</h1>
           </div>
         </div>
-        <div class="cardDiv darkCard" id='sauce4'>
+        <div class="cardDiv darkCard" id='sauce4' >
           <div class="cardImg" style="background:url('imgs/mustard.jpg'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Mustard Maniac</h2>
-            <p>Meant for the spice lovers, this hot sauce is bound to take one on a roller coaster experice of spices and flavours.</p>
+            <p>For the spice lovers, this hot sauce will take one on a roller coaster experice of spices and flavours.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 40</h1>
@@ -121,11 +121,11 @@
       </div>
       <div class="imgDiv" id="toppingsImgDiv">
         <div class="headingDiv">
-          <h2>Choose Your Toppings</h2>
+          <h2>Choose Your Toppings (Choose one or many)</h2>
         </div>
       </div>
       <div class="sectionDiv lightSection" id="toppingsSectionDiv">
-        <div class="cardDiv lightCard" id='top1'>
+        <div class="cardDiv lightCard" id='top1' onclick="top1fun()">
           <div class="cardImg" style="background:url('imgs/capsicum.jpg'); background-size:cover;">
 
           </div>
@@ -137,7 +137,7 @@
             <h1>&#x20B9; 40</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='top2'>
+        <div class="cardDiv lightCard" id='top2' onclick="top2fun()">
           <div class="cardImg" style="background:url('imgs/onion.jpg'); background-size:cover;">
 
           </div>
@@ -149,31 +149,31 @@
             <h1>&#x20B9; 40</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='top3'>
+        <div class="cardDiv lightCard" id='top3' onclick="top3fun()">
           <div class="cardImg" style="background:url('imgs/mush.jpg'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Grilled Mushroom</h2>
-            <p>Hand picked juicy mushroom first boiled and then saughted in shallow olive to make the perfect pizza topping.</p>
+            <p>Hand picked juicy mushroom first boiled and then saughted in olive to make the perfect pizza topping.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 40</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='top4'>
+        <div class="cardDiv lightCard" id='top4' onclick="top4fun()">
           <div class="cardImg" style="background:url('imgs/paneer.jpg'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Paneer</h2>
-            <p>A milk solid meant to be tender on the inside and crispy outside.</p>
+            <p>A milk solid tender on the inside and crispy outside. Add this to relish the fresh taste of cottage cheese.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 45</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='top5'>
+        <div class="cardDiv lightCard" id='top5' onclick="top5fun()">
           <div class="cardImg" style="background:url('imgs/diced chicken.jpg'); background-size:cover;">
 
           </div>
@@ -185,37 +185,37 @@
             <h1>&#x20B9; 40</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='top6'>
+        <div class="cardDiv lightCard" id='top6' onclick="top6fun()">
           <div class="cardImg" style="background:url('imgs/sausage.jpg'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Chicken Sausage</h2>
-            <p>A delicious favourite among almost all meat lovers.</p>
+            <p>A delicious favourite among almost all meat lovers. Add this to enjoy a smoked flavor.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 45</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='top7'>
+        <div class="cardDiv lightCard" id='top7' onclick="top7fun()">
           <div class="cardImg" style="background:url('imgs/salami.jpg'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Chicken Salami</h2>
-            <p>Rund slices of processed chicken meant to dissolve and then explode in one's mouth.</p>
+            <p>Rund slices of processed chicken with a marble appearance meant to dissolve and then explode in one's mouth.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 40</h1>
           </div>
         </div>
-        <div class="cardDiv lightCard" id='top8'>
+        <div class="cardDiv lightCard" id='top8' onclick="top8fun()">
           <div class="cardImg" style="background:url('imgs/pepperoni.webp'); background-size:cover;">
 
           </div>
           <div class="cardDesc">
             <h2>Chicken Pepperoni</h2>
-            <p>A special kind of salami meant for the spice-loving tongues.</p>
+            <p>A special kind of salami meant for the spice-loving tongues.Pepperoni is a blend of pork, beef, and spices.</p>
           </div>
           <div class="cardCost">
             <h1>&#x20B9; 45</h1>
