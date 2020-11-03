@@ -209,3 +209,9 @@ div{
 #buttonDiv button:hover{
   text-transform: uppercase;
 }
+
+#contactDiv{
+  color:var(--costDark);
+  padding:30px;
+  font-size:25px;
+}

@@ -7,4 +7,5 @@
   font-size: 25px;
   background-color: var(--headerBg);
   color: var(--headerText);
+  bottom: 0;
 }
