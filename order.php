@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Current Order-Peatza</title>
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src='js/order.js'></script>
   </head>
   <body>
     <?php include('header.php'); ?>
@@ -122,8 +123,8 @@
         </div>
       </div>
       <div id="buttonDiv">
-        <button type="button">Set order as Favourite</button>
-        <button type="button" style="margin-left:50px;">Proceed to Checkout</button>
+        <button type="button" onclick='setFav()'>Set order as Favourite</button>
+        <button type="button" style="margin-left:50px;" onclick="checkout()">Proceed to Checkout</button>
       </div>
     </div>
     <?php include('footer.php'); ?>
