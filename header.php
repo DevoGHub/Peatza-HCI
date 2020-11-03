@@ -77,7 +77,7 @@
           <a href="order.php"><li>Current Order</li></a>
           <a href="#" onclick="fav()"><li>Favourites</li></a>
           <a href="contact.php"><li>Contact Us</li></a>
-          <a href="#"><li>About Us</li></a>
+          <a href="about.php"><li>About Us</li></a>
         </ul>
       </nav>
     </div>
