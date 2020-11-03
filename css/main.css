@@ -1,0 +1,152 @@
+:root{
+  --bgcolor:#eca442;
+  --lightSection: #eca442;
+  --darkSection: #61120e;
+  --darkCardText:#e3b39d;
+  --headerBg:#ca2521;
+  --headerText:#A5A79A;
+  --headerHover:#61120e;
+  --costDark:#7d0511;
+  --costLight:#ffd367;
+}
+
+body{
+  padding:0;
+  margin:0;
+  background-color: var(--bgcolor);
+}
+
+div{
+  display: inline-block;
+}
+
+#bodyDiv{
+  width: 100%;
+  height: auto;
+  margin-top: 89px;
+}
+
+.imgDiv{
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#crustImgDiv{
+  background-image: url('../imgs/crust.jpeg');
+}
+
+#sauceImgDiv{
+  background-image: url('../imgs/sauce.jpg');
+}
+
+#toppingsImgDiv{
+  background-image: url('../imgs/toppings.jpg');
+}
+
+.headingDiv h2{
+  color:#fff;
+  font-weight: bold;
+  font-size: 35px;
+  padding:10px;
+  border-style: solid;
+  border-radius:25px;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.sectionDiv{
+  width: 100%;
+  display: block;
+  height: auto;
+  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.lightSection{
+  background-color: var(--lightSection);
+  color: var(--darkSection);
+}
+
+.darkSection{
+  background-color: var(--darkSection);
+  color:var(--lightSection);
+}
+
+.cardDiv{
+  width: 300px;
+  height: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:30px;
+  margin-bottom: 30px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-family: roboto,fantasy,cursive;
+  transition: 0.2s;
+  display: grid;
+  opacity: 0.7;
+  grid-template-columns: 1fr;
+  grid-template-rows:2fr 2fr 1fr;
+  grid-template-areas: 'img' 'desc' 'cost';
+}
+
+.cardDiv:hover{
+  width:315px;
+  height: 465px;
+  margin-top:15px;
+  margin-bottom: 15px;
+  transition: 0.2s;
+  opacity: 1;
+}
+
+.darkCard{
+  background-color: var(--lightSection);
+  color: var(--darkSection);
+}
+
+.lightCard{
+  background-color: var(--darkSection);
+  color: var(--darkCardText);
+}
+
+.cardImg{
+  grid-area:img;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.cardDesc{
+  grid-area: desc;
+  padding: 20px;
+  text-align: center;
+  text-justify:center;
+}
+
+.cardCost{
+  grid-area:cost;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  text-justify: center;
+}
+
+.lightSection .cardCost{
+  background-color: var(--costDark);
+}
+
+.darkSection .cardCost{
+  background-color: var(--costLight);
+}
+
+.cardDesc p{
+  font-family: Arial;
+}

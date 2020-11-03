@@ -1,0 +1,87 @@
+header, #headerDiv{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color:var(--headerBg);
+  z-index: 1;
+}
+
+#headerDiv{
+  display: grid;
+  grid-template-columns: 1fr 20fr;
+}
+
+#peatzaIconDiv{
+  cursor: pointer;
+}
+
+#peatzaIcon{
+  width: 70px;
+  height: auto;
+  margin-top:10px;
+  margin-left:10px;
+  margin-bottom:5px;
+  margin-right:8px;
+}
+
+#peatzaIconDiv:hover #peatzaIcon{
+  width: 80px;
+  height: auto;
+  margin-top:4px;
+  margin-bottom: 1px;
+  margin-left:8px;
+  margin-right:0px;
+  transition: 0.3s;
+}
+
+#peatzaIconDiv:hover #peatzaIconPath{
+  fill:var(--headerHover);
+  transition: 0.2s;
+}
+
+nav{
+  position: absolute;
+  right: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  height: 100%;
+}
+
+nav li{
+  display: inline-block;
+  margin:0;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--headerText);
+  text-align: center;
+  width: 230px;
+  font-size: 25px;
+  margin-top:0;
+  font-weight: 700;
+  margin-bottom: 0;
+  height: 100%;
+  padding-top: 33px;
+  padding-bottom: 28px;
+}
+
+nav a:hover{
+  background-color: var(--headerHover);
+  font-weight: 1000;
+  text-transform:uppercase;
+  transition: 0.3s;
+}
+
+/*@media screen and (max-width:1027px) {
+  #headerDiv{
+    display: none;
+  }
+}*/
