@@ -70,7 +70,7 @@
         <ul>
           <a href="index.php"><li>Home</li></a>
           <a href="order.php"><li>Current Order</li></a>
-          <a href="#"><li>Profile</li></a>
+          <a href="#"><li>Favourites</li></a>
           <a href="#"><li>Contact Us</li></a>
           <a href="#"><li>About Us</li></a>
         </ul>
