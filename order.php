@@ -121,6 +121,10 @@
           </div>
         </div>
       </div>
+      <div id="buttonDiv">
+        <button type="button">Set order as Favourite</button>
+        <button type="button" style="margin-left:50px;">Proceed to Checkout</button>
+      </div>
     </div>
     <?php include('footer.php'); ?>
   </body>

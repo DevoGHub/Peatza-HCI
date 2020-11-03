@@ -188,3 +188,23 @@ div{
   font-weight: 1000;
   font-size: 25px;
 }
+
+#buttonDiv{
+  padding-left:525px;
+}
+
+#buttonDiv button{
+  margin-bottom: 30px;
+  width:200px;
+  height: 80px;
+  font-size: 25px;
+  background-color: var(--costDark);
+  color: var(--darkCardText);
+  cursor:pointer;
+  border-radius: 20px;
+  outline-style: none;
+}
+
+#buttonDiv button:hover{
+  text-transform: uppercase;
+}
