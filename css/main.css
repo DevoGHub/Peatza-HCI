@@ -150,3 +150,13 @@ div{
 .cardDesc p{
   font-family: Arial;
 }
+
+#ordersDiv{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr,1fr;
+}
+
+.orderDiv{
+
+}
