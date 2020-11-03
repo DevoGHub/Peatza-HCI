@@ -1,4 +1,9 @@
 <link rel="stylesheet" href="css/header.css">
+<script type="text/javascript">
+  function fav(){
+    alert("Cannot connect to our database, try again later!");
+  }
+</script>
 <header>
   <div id="headerDiv">
     <div id="peatzaIconDiv">
@@ -70,7 +75,7 @@
         <ul>
           <a href="index.php"><li>Home</li></a>
           <a href="order.php"><li>Current Order</li></a>
-          <a href="#"><li>Favourites</li></a>
+          <a href="#" onclick="fav()"><li>Favourites</li></a>
           <a href="#"><li>Contact Us</li></a>
           <a href="#"><li>About Us</li></a>
         </ul>

@@ -97,6 +97,7 @@ div{
   grid-template-columns: 1fr;
   grid-template-rows:2fr 2fr 1fr;
   grid-template-areas: 'img' 'desc' 'cost';
+  cursor: pointer;
 }
 
 .cardDiv:hover{
@@ -175,7 +176,7 @@ div{
   font-family: roboto,fantasy,cursive;
 }
 
-.orderInfoDiv{;
+.orderInfoDiv{
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3fr,1fr;
