@@ -34,8 +34,8 @@ var crust4=document.getElementById('crust4');
   crust3.style.marginTop='15px';
   crust3.style.marginBottom='15px';
   crust3.style.opacity='1';
-
 }
+
 function crust4fun(){
 var crust1=document.getElementById('crust1');
 var crust2=document.getElementById('crust2');
@@ -197,4 +197,18 @@ var top4=document.getElementById('top4');
   top8.style.marginBottom='15px';
   top8.style.opacity='1';
 
+}
+function clearp()
+{
+	var p = prompt("Do you want to clear your selections?", "Yes");
+	if(p=='Yes' || p=='yes'){   
+location.replace('index.php');
+}
+}
+function order()
+{
+	var p = prompt("Do you want to proceed to your order?", "Yes");
+	if(p=='Yes' || p=='yes'){   
+location.replace('order.php');
+}
 }

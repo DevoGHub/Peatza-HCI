@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript" src="js/index.js"></script>
-    <title></title>
+    <title>Peatza</title>
   </head>
   <body>
     <?php include("header.php"); ?>
@@ -40,7 +40,7 @@
           </div>
         </div>
         <div class="cardDiv lightCard" id='crust3' onclick="crust3fun()">
-          <div class="cardImg" style="background:url('imgs/cheezza.jpg'); background-size:cover;">
+          <div class="cardImg" style="background:url('imgs/cheezza.jpg'); background-size:cover;" >
 
           </div>
           <div class="cardDesc">
@@ -223,6 +223,15 @@
         </div>
       </div>
     </div>
+	<center>
+            <h2>Your Order is :</h2>
+            <h3>Cheezza Crust with Tomato Sauce with toppings onion, capsicum, paneer and chicken pepperoni.</h3></center>
+          <div id="buttonDiv">
+<button type="button" onclick="clearp()">Clear All Selection</button>
+<button type="button" style="margin-left:50px;" onclick="order()">Proceed to order</button>
+</div>
+		  
+	
     <?php include("footer.php"); ?>
   </body>
 </html>
